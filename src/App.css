@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #61dafb;
 }
 
 .App-logo {
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.task {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+}
+
+button{
+  margin: 25px;
 }
